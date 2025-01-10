@@ -1,11 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Crumb & Culture | Bread Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crumb & Culture | Artisanal Bread Blog</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <h1>Welcome to Crumb & Culture</h1>
-    <p>A blog about artisanal bread making.</p>
+    <header class="site-header">
+        <nav>
+            <div class="logo">Crumb & Culture</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="techniques.html">Techniques</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Discover the Art of Bread Making</h1>
+                <p>Exploring traditional techniques and modern innovations in artisanal baking</p>
+                <a href="#" class="cta-button">Start Baking</a>
+            </div>
+        </section>
+
+        <section class="featured-posts">
+            <h2>Latest Articles</h2>
+            <div class="post-grid">
+                <article class="post-card">
+                    <img src="/api/placeholder/600/400" alt="Sourdough Starter Guide">
+                    <div class="post-content">
+                        <h3>Mastering Your Sourdough Starter</h3>
+                        <p>Learn the secrets to maintaining a healthy and active sourdough culture.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="newsletter-content">
+                <h2>Join Our Baking Community</h2>
+                <p>Get weekly recipes, tips, and inspiration delivered to your inbox</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About</h4>
+                <p>Crumb & Culture is dedicated to sharing the joy and craft of artisanal bread making.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Crumb & Culture. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
