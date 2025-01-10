@@ -106,10 +106,11 @@ nav {
 .post-card:hover {
     transform: translateY(-5px);
 }
-.post-image img {
+Copy.post-card img {
     width: 100%;
-    height: 200px;
-    object-fit: cover;
+    max-width: 600px;
+    height: 400px;
+    object-fit: cover;  /* This ensures the image fills the space without distortion */
 }
 .post-content {
     padding: 1.5rem;
